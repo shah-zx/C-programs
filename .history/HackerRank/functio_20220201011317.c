@@ -17,8 +17,6 @@ int max_of_four(int a, int b, int c, int d)
     sum += d;
     int r = a > b ? a : b;
     int e = c > d ? c : d;
-    int g = r > e ? r : e;
-    return g;
 }
 
 int main()

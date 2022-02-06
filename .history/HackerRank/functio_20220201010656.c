@@ -15,10 +15,10 @@ int max_of_four(int a, int b, int c, int d)
     sum += b;
     sum += c;
     sum += d;
-    int r = a > b ? a : b;
-    int e = c > d ? c : d;
-    int g = r > e ? r : e;
-    return g;
+    int y = max(a, b);
+    int r = max(c, d);
+    int rem = max(y, r);
+    return rem;
 }
 
 int main()
