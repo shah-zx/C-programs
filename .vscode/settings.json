@@ -13,5 +13,8 @@
             "database": "LabManual",
             "username": "root"
         }
-    ]
+    ],
+    "files.associations": {
+        "string": "c"
+    }
 }
