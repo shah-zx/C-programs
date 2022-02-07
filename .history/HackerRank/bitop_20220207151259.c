@@ -18,8 +18,8 @@ int main()
     int sumx = 0;
     for (i = 1; i <= a; i++)
     {
-        // int j = i + 1;
-        suma = i & i;
-        printf("%d" , suma);
+        int j = i + 1;
+        // suma = i & j;
+        printf("%d" , j);
     }
 }

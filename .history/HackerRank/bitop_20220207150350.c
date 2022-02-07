@@ -9,17 +9,15 @@
 int main()
 {
 
-    int a;
-    scanf("%d", &a);
-    // scanf("%d", &b);
-    int i;
-    int suma = 0;
-    int sumn = 0;
-    int sumx = 0;
-    for (i = 1; i <= a; i++)
+    int a, b;
+    scanf("%d\n", &a);
+    scanf("%d", &b);
+    for (int i = 1; i <= a; i++)
     {
-        // int j = i + 1;
-        suma = i & i;
-        printf("%d" , suma);
+        for (int j = i + 1; j <= a; i++)
+        {
+            printf("%d", j);
+            printf("\n");
+        }
     }
 }

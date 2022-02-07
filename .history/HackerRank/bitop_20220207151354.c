@@ -20,6 +20,6 @@ int main()
     {
         // int j = i + 1;
         suma = i & i;
-        printf("%d" , suma);
+        printf("%d" , j);
     }
 }
